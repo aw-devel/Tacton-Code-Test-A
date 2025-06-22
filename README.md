@@ -1,5 +1,7 @@
 # Tacton Engineering - Code Test A
 
+[![CI](https://github.com/YOUR_USERNAME/Tacton-Code-Test-A/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/Tacton-Code-Test-A/actions/workflows/ci.yml)
+
 A C# calculator that evaluates mathematical expressions using Reverse Polish Notation (RPN) and the Shunting Yard algorithm.
 
 ## Features
