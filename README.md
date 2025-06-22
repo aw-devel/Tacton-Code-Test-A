@@ -31,36 +31,17 @@ Calculator.Calculate("3 * 2 + 1");    // Returns: 7
 
 Calculator.Calculate("3 * -2 + 6");   // Returns: 0
 ```
-## Examples
-
-| Expression | Result |
-|------------|--------|
-| "2 + 3" | 5 |
-| "3 * 2 + 1" | 7 |
-| "3 * -2 + 6" | 0 |
-| "20 / 4 + 2 * 3" | 11 |
-| "1 + 2 * 3 + 4" | 11 |
 
 ## Build & Test
 
 Build:
-dotnet build
+```dotnet build```
 
 Run tests:
-dotnet test
-
-Run console demo:
-dotnet run --project TactonCalculator.Console
+``dotnet test``
 
 ## Project Structure
-
+```
 TactonCalculator/           - Core library
 TactonCalculator.Tests/     - Unit tests (xUnit)
-
-## Requirements
-
-- .NET 8.0
-- Space-separated expressions
-- Integer operands only
-
-Implementation uses advanced algorithms (Shunting Yard + RPN) for mathematically correct operator precedence handling.
+```
