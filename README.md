@@ -45,3 +45,8 @@ Run tests:
 TactonCalculator/           - Core library
 TactonCalculator.Tests/     - Unit tests (xUnit)
 ```
+
+## References
+
+https://en.wikipedia.org/wiki/Polish_notation
+https://en.wikipedia.org/wiki/Shunting_yard_algorithm
